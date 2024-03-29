@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:MauiSocial.Models"
+             x:Class="MauiSocial.MainPage">
+
+    <CollectionView x:Name="PostsView">
+         <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="models:Post">
+
+                <VerticalStackLayout Padding="0,10" Margin="0,20" Spacing="5" HorizontalOptions="Fill">
+                    <HorizontalStackLayout Spacing="5">
+                        <Image Source="dotnet_bot_jetpack.png" 
+                               HeightRequest="50"/>
+                        <Label Text="DOTNET BOT" 
+                               VerticalTextAlignment="Center"/>
+                    </HorizontalStackLayout>
+                    <Image Source="{Binding ContentUri}" 
+                           HorizontalOptions="Fill" 
+                           WidthRequest="450" 
+                           Aspect="AspectFit"/>
+                    <Label Margin="2" Text="{Binding Likes, StringFormat='{0} Likes'}"/>
+                    <HorizontalStackLayout Padding="2" Spacing="5" HeightRequest="45">
+                        <ImageButton Source="{AppThemeBinding Light=like.png, Dark=like_dark.png}" 
+                                     Clicked="Btn_Like_Clicked" 
+                                     CommandParameter="{Binding .}"
+                                     BackgroundColor="Transparent" 
+                                     WidthRequest="25"/>
+                        <ImageButton Source="{AppThemeBinding Light=comment.png, Dark=comment_dark.png}" 
+                                     Clicked="Btn_Comments_Clicked" 
+                                     CommandParameter="{Binding .}"
+                                     BackgroundColor="Transparent" WidthRequest="25"/>
+                        <ImageButton Source="{AppThemeBinding Light=share.png, Dark=share_dark.png}"
+                                     BackgroundColor="Transparent" 
+                                     Clicked="Btn_Share_Clicked"
+                                     CommandParameter="{Binding .}"
+                                     WidthRequest="25"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+</ContentPage>

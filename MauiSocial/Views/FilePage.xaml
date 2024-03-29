@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiSocial.Views.FilePage"
+             Shell.TabBarIsVisible="False"
+             Shell.NavBarIsVisible="False"
+             Title="Add Post">
+    <VerticalStackLayout VerticalOptions="Fill">
+        <Button Text="x" BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" FontSize="36" HorizontalOptions="Start" TextColor="{AppThemeBinding Dark=White,Light=Black}" Clicked="Btb_Cancel_Clicked"/>
+        <HorizontalStackLayout Padding="10,10" Spacing="10" HeightRequest="500" HorizontalOptions="Center" VerticalOptions="Center" >
+            <ImageButton Source="{AppThemeBinding Light = select.png, Dark=select_dark.png}" BackgroundColor="Transparent" Clicked="Btn_SelectPhoto_Clicked" HorizontalOptions="Start" WidthRequest="100"/>
+            <ImageButton Source="{AppThemeBinding Light = camera.png, Dark=camera_dark.png}" BackgroundColor="Transparent" Clicked="Btn_TakePhoto_Clicked" HorizontalOptions="End" WidthRequest="100"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>

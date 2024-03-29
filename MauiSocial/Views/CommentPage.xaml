@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiSocial.Views.CommentPage"
+             Shell.NavBarIsVisible="False"
+             Title="CommentPage">
+    <VerticalStackLayout>
+        <ImageButton Source="back_button" Clicked="Btn_Back_Clicked" HeightRequest="35" HorizontalOptions="Start" WidthRequest="50"/>
+
+        <Border HeightRequest="2" BackgroundColor="Gray"/>
+        <Label 
+            Text="Comments"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <CollectionView x:Name="CommentsList" HeightRequest="600">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout Padding="2">
+                        <Image Source="{Binding ProfilePic}" WidthRequest="35"/>
+                        <Border BackgroundColor="LightGray" StrokeShape="RoundRectangle 10,10,10,10" Padding="5">
+                            <Label Text="{Binding Text}"/>
+                        </Border>
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Border HeightRequest="2" BackgroundColor="Gray"/>
+        <HorizontalStackLayout >
+            <Entry x:Name="CommentEntry"  VerticalOptions="Center" WidthRequest="350"/>
+            <ImageButton Source="share.png" HorizontalOptions="End" WidthRequest="40" HeightRequest="35" Clicked="Btn_Send_Clicked" />
+        </HorizontalStackLayout>
+        
+
+    </VerticalStackLayout>
+</ContentPage>

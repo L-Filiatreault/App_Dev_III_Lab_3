@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiSocial.Views.Settings"
+             Title="Settings"
+             >
+    <TableView>
+        <TableRoot>
+            <TableSection Title="User information">
+                <EntryCell x:Name="UsernameEntry" 
+                           Placeholder="Username" 
+                           Completed="UsernameEntry_Completed" />
+                <EntryCell x:Name="PhotoUriEntry" Placeholder="Photo Uri" Completed="PhotoUriEntry_Completed"/>
+            </TableSection>
+            <TableSection Title="Preferences">
+                <SwitchCell x:Name="ThemeSwitch" 
+                            Text="Light Theme"  
+                            OnChanged="ThemeSwitch_OnChanged" 
+                            OnColor="Yellow"/>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+   
+</ContentPage>

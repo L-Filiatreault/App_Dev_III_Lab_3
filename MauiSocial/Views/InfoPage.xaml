@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiSocial.Views.InfoPage"
+             Title="Info">
+    <AbsoluteLayout Padding="10,10">
+        <Editor x:Name="FileEditor" IsReadOnly="True" Placeholder="Open the embedded file" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1"/>
+        
+    </AbsoluteLayout>
+</ContentPage>

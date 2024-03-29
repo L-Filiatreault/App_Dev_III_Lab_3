@@ -1,0 +1,96 @@
+is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiSocial
+build_property.ProjectDir = C:\Users\0474461\AppDev3\Lab3\Lab3\MauiSocial\
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/CommentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.CommentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CommentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CommentPage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/FilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.FilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FilePage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/GroupsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.GroupsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GroupsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GroupsPage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/InfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.InfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InfoPage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/PostPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.PostPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PostPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PostPage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Settings.xaml
+
+[C:/Users/0474461/AppDev3/Lab3/Lab3/MauiSocial/Views/VideosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSocial.Views.VideosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VideosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VideosPage.xaml

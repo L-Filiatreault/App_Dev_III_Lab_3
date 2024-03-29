@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiSocial.Views.PostPage"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Title="PostPage">
+    
+    <Grid ColumnDefinitions="70,*,70" 
+          RowDefinitions="50,2,50,*" 
+          RowSpacing="10" 
+          Padding="10,10">
+        <ImageButton 
+            Grid.Column="0"
+            Grid.Row="0"
+            Source="back_button.png"
+            WidthRequest="35" 
+            HeightRequest="35"
+            HorizontalOptions="Start"
+            Clicked="Btn_Cancel_Clicked"/>
+        <Label Text="Create post" 
+            Grid.Column="1"
+            Grid.Row="0"
+            FontSize="Large"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Center"/>
+        <Button Text = "Post" 
+            Grid.Column="2"
+            Grid.Row="0"
+            Clicked="Btn_Save_Clicked"
+            HorizontalOptions="End"/>
+        <Border 
+            Grid.Row="1"
+            Grid.ColumnSpan="3"
+            BackgroundColor="LightGray" 
+            HeightRequest="2"/>
+        <Editor 
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            Placeholder="Say something about this photo..."/>
+        <ActivityIndicator IsRunning="{Binding Source={x:Reference ContentImg}, Path=IsLoading}" Color="Black"/>
+        <Image 
+            Grid.Row="3"
+            Grid.ColumnSpan="3"
+            Aspect="AspectFill"
+            VerticalOptions="Start"
+            x:Name="ContentImg" />
+    </Grid>
+
+</ContentPage>

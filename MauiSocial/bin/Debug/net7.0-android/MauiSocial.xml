@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiSocial</name>
+    </assembly>
+    <members>
+        <member name="T:MauiSocial.DataRepo.PostsRepo">
+            <summary>
+            Simple repo model containing a list of posts and managing CRUD operations 
+            while notifying observers. 
+            </summary>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.GetPost(System.String)">
+            Crud operations
+            <summary>
+             Reads the Post given a unique id
+            </summary>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.GetPostIndex(System.String)">
+            <summary>
+             Retruns the index of a post given its index.
+            </summary>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.AddPost(System.String)">
+            <summary>
+            Creates and adds a new post to the repo 
+            </summary>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.RemovePost(System.String)">
+            <summary>
+            Deletes a post given the post Id
+            </summary>
+            <param name="post"></param>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.UpdatePost(System.String,MauiSocial.Models.Post)">
+            <summary>
+            Update operation on post given new post attributes. 
+            </summary>
+            <param name="id"></param>
+            <param name="post"></param>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.SavePosts">
+            <summary>
+            Serializes the Posts data structure to a json file 
+            </summary>
+        </member>
+        <member name="M:MauiSocial.DataRepo.PostsRepo.LoadPosts">
+            <summary>
+            Deserializes the Posts data structure from a json file
+            </summary>
+        </member>
+        <member name="T:MauiSocial.Models.Comment">
+            <summary>
+            Simple container class for comment made on social media posts
+            </summary>
+        </member>
+        <member name="T:MauiSocial.Models.Post">
+            <summary>
+            Simple container class for social media post
+            </summary>
+        </member>
+        <member name="T:MauiSocial.Services.CloudinaryService">
+            <summary>
+            This service provides an interface with the Cloudinary functionalities of upload pictures online
+            </summary>
+        </member>
+        <member name="M:MauiSocial.Services.CloudinaryService.UploadImageAsync(System.String,System.String)">
+            <summary>
+            Uploads and image asynchronously on cloudinary
+            </summary>
+            <param name="imageFilePath">local path to the image file</param>
+            <param name="imageName">name underwhich the image is saved</param>
+            <returns>ImageUpload result</returns>
+        </member>
+        <member name="F:MauiSocial.Views.CommentPage.profilePic_">
+            \ TODO: Load the profile url from user preferences
+        </member>
+        <member name="P:MauiSocial.Views.ProfilePage.ProfileName">
+            \ TODO: Update this to use user preferences
+        </member>
+        <member name="P:MauiSocial.Views.ProfilePage.ProfileUrl">
+            \ TODO: Update this to use user preferences
+        </member>
+    </members>
+</doc>
